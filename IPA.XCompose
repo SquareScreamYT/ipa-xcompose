@@ -1,0 +1,196 @@
+# ipa xcompose
+# made by sq
+# https://github.com/SquareScreamYT
+#
+# created for wincompose
+# https://github.com/samhocevar/wincompose
+#
+# download this file and put in your home directory (c:/Users/[user])
+# to include in your file, put this in your .XCompose file
+# include "c:/Users/[user]/ipa.XCompose"
+
+# xsampa sequences
+# https://en.wikipedia.org/wiki/X-SAMPA
+
+# uppercase/lowercase
+<Multi_key> <a> <Multi_key> : "a" # open front unrounded vowel
+<Multi_key> <b> <Multi_key> : "b" # voiced bilabial plosive
+<Multi_key> <b> <_> <lt> <Multi_key> : "ɓ" # voiced bilabial implosive
+<Multi_key> <B> <Multi_key> : "β" # voiced bilabial fricative
+<Multi_key> <B> <\> <Multi_key> : "ʙ" # bilabial trill
+<Multi_key> <c> <Multi_key> : "c" # voiceless palatal plosive
+<Multi_key> <d> <Multi_key> : "d" # voiced alveolar plosive
+<Multi_key> <d> <`> <Multi_key> : "ɖ" # voiced retroflex plosive
+<Multi_key> <d> <_> <lt> <Multi_key> : "ɗ" # voiced alveolar implosive
+<Multi_key> <D> <Multi_key> : "ð" # voiced dental fricative
+<Multi_key> <e> <Multi_key> : "e" # close-mid front unrounded vowel
+<Multi_key> <E> <Multi_key> : "ɛ" # open-mid front unrounded vowel
+<Multi_key> <f> <Multi_key> : "f" # voiceless labiodental fricative
+<Multi_key> <F> <Multi_key> : "ɱ" # labiodental nasal
+<Multi_key> <g> <Multi_key> : "g" # voiced velar plosive
+<Multi_key> <g> <_> <lt> <Multi_key> : "ɠ" # voiced velar implosive
+<Multi_key> <G> <Multi_key> : "ɣ" # voiced velar fricative
+<Multi_key> <G> <\> <Multi_key> : "ɢ" # voiced uvular plosive
+<Multi_key> <G> <\> <_> <lt> <Multi_key> : "ʛ" # voiced uvular implosive
+<Multi_key> <h> <Multi_key> : "h" # voiceless glottal fricative
+<Multi_key> <h> <\> <Multi_key> : "ɦ" # voiced glottal fricative
+<Multi_key> <H> <Multi_key> : "ɥ" # labial-palatal approximant
+<Multi_key> <H> <\> <Multi_key> : "ʜ" # voiceless epiglottal fricative
+<Multi_key> <i> <Multi_key> : "i" # close front unrounded vowel
+<Multi_key> <I> <Multi_key> : "ɪ" # near-close front unrounded vowel
+<Multi_key> <j> <Multi_key> : "j" # palatal approximant
+<Multi_key> <j> <`> <Multi_key> : "ʝ" # voiced palatal fricative
+<Multi_key> <J> <Multi_key> : "ɲ" # palatal nasal
+<Multi_key> <J> <\> <Multi_key> : "ɟ" # voiced palatal plosive
+<Multi_key> <J> <\> <_> <lt> <Multi_key> : "ʄ" # voiced palatal implosive
+<Multi_key> <k> <Multi_key> : "k" # voiceless velar plosive
+<Multi_key> <K> <Multi_key> : "ɬ" # voiceless alveolar lateral fricative
+<Multi_key> <l> <Multi_key> : "l" # alveolar lateral approximant
+<Multi_key> <l> <`> <Multi_key> : "ɭ" # retroflex lateral fricative
+<Multi_key> <l> <\> <Multi_key> : "ɺ" # alveolar lateral flap
+<Multi_key> <L> <Multi_key> : "ʎ" # palatal lateral approximant
+<Multi_key> <L> <\> <Multi_key> : "ʟ" # velar lateral approximant
+<Multi_key> <m> <Multi_key> : "m" # bilabial nasal
+<Multi_key> <M> <Multi_key> : "ɯ" # close back unrounded vowel
+<Multi_key> <M> <\> <Multi_key> : "ɰ" # velar approximant
+<Multi_key> <n> <Multi_key> : "n" # alveolar nasal
+<Multi_key> <n> <`> <Multi_key> : "ɳ" # retroflex nasal
+<Multi_key> <N> <Multi_key> : "ŋ" # velar nasal
+<Multi_key> <N> <\> <Multi_key> : "ɴ" # uvular nasal
+<Multi_key> <o> <Multi_key> : "o" # close-mid back rounded vowel
+<Multi_key> <O> <Multi_key> : "ɔ" # open-mid back rounded vowel
+<Multi_key> <O> <\> <Multi_key> : "ʘ" # bilabial click
+<Multi_key> <p> <Multi_key> : "p" # voiceless bilabial plosive
+<Multi_key> <p> <\> <Multi_key> : "ɸ" # voiceless bilabial fricative
+<Multi_key> <q> <Multi_key> : "q" # voiceless uvular plosive
+<Multi_key> <r> <Multi_key> : "r" # alveolar trill
+<Multi_key> <r> <`> <Multi_key> : "ɽ" # retroflex flap
+<Multi_key> <r> <\> <Multi_key> : "ɹ" # alveolar approximant
+<Multi_key> <r> <\> <`> <Multi_key> : "ɻ" # retroflex approximant
+<Multi_key> <R> <Multi_key> : "ʁ" # voiced uvular fricative
+<Multi_key> <R> <\> <Multi_key> : "ʀ" # uvular trill
+<Multi_key> <s> <Multi_key> : "s" # voiceless alveolar fricative
+<Multi_key> <s> <`> <Multi_key> : "ʂ" # voiceless retroflex fricative
+<Multi_key> <s> <\> <Multi_key> : "ɕ" # voiceless alveolo-palatal fricative
+<Multi_key> <S> <Multi_key> : "ʃ" # voiceless postalveolar fricative
+<Multi_key> <t> <Multi_key> : "t" # voiceless alveolar plosive
+<Multi_key> <t> <`> <Multi_key> : "ʈ" # voiceless retroflex plosive
+<Multi_key> <T> <Multi_key> : "θ" # voiceless dental fricative
+<Multi_key> <u> <Multi_key> : "u" # close back rounded vowel
+<Multi_key> <U> <Multi_key> : "ʊ" # near-close back rounded vowel
+<Multi_key> <v> <Multi_key> : "v" # voiced labiodental fricative
+<Multi_key> <v> <\> <Multi_key> : "ʋ" # labiodental approximant
+<Multi_key> <w> <Multi_key> : "w" # labial-velar approximant
+<Multi_key> <W> <Multi_key> : "ʍ" # voiceless labial-velar fricative
+<Multi_key> <x> <Multi_key> : "ɧ" # voiceless velar fricative
+<Multi_key> <x> <\> <Multi_key> : "χ" # voiceless uvular fricative
+<Multi_key> <X> <Multi_key> : "χ" # voiceless uvular fricative
+<Multi_key> <y> <Multi_key> : "y" # close front rounded vowel
+<Multi_key> <Y> <Multi_key> : "ʏ" # near-close front rounded vowel
+<Multi_key> <z> <Multi_key> : "z" # voiced alveolar fricative
+<Multi_key> <z> <`> <Multi_key> : "ʐ" # voiced retroflex fricative
+<Multi_key> <z> <\> <Multi_key> : "ʑ" # voiced alveolo-palatal fricative
+<Multi_key> <Z> <Multi_key> : "ʒ" # voiced postalveolar fricative
+
+# other symbols
+<Multi_key> <.> <Multi_key> : "." # syllable break
+<Multi_key> <"> <Multi_key> : "ˈ" # primary stress
+<Multi_key> <%> <Multi_key> : "ˌ" # secondary stress
+<Multi_key> <'> <Multi_key> : "ʲ" # palatalized
+<Multi_key> <:> <Multi_key> : "ː" # long
+<Multi_key> <:> <\> <Multi_key> : "ˑ" # half long
+<Multi_key> <-> <Multi_key> : "-" # separator
+<Multi_key> <@> <Multi_key> : "ə" # schwa
+<Multi_key> <@> <\> <Multi_key> : "ɘ" # close-mid central unrounded vowel
+<Multi_key> <@> <`> <Multi_key> : "ɚ" # r-coloured schwa
+<Multi_key> <{> <Multi_key> : "æ" # near-open front unrounded vowel
+<Multi_key> <}> <Multi_key> : "ʉ" # close central rounded vowel
+<Multi_key> <1> <Multi_key> : "ɨ" # close central unrounded vowel
+<Multi_key> <2> <Multi_key> : "ø" # close-mid front rounded vowel
+<Multi_key> <3> <Multi_key> : "ɜ" # open-mid central unrounded vowel
+<Multi_key> <3> <\> <Multi_key> : "ɞ" # open-mid central rounded vowel
+<Multi_key> <4> <Multi_key> : "ɾ" # alveolar flap
+<Multi_key> <5> <Multi_key> : "ɫ" # velarized alveolar lateral approximant
+<Multi_key> <6> <Multi_key> : "ɐ" # near-open central vowel
+<Multi_key> <7> <Multi_key> : "ɤ" # close-mid back unrounded vowel
+<Multi_key> <8> <Multi_key> : "ɵ" # close-mid central rounded vowel
+<Multi_key> <9> <Multi_key> : "œ" # open-mid front rounded vowel
+<Multi_key> <&> <Multi_key> : "ɶ" # open front rounded vowel
+<Multi_key> <?> <Multi_key> : "ʔ" # glottal stop
+<Multi_key> <?> <\> <Multi_key> : "ʕ" # voiced pharyngeal fricative
+<Multi_key> <*> <Multi_key> : "*" # undefined escape character
+<Multi_key> </> <Multi_key> : "/" # delimiter of phonemic transcriptions
+<Multi_key> <lt> <Multi_key> : "⟨" # begin nonsegmental notation
+<Multi_key> <lt> <\> <Multi_key> : "ʢ" # voiced epiglottal fricative
+<Multi_key> <gt> <Multi_key> : "⟩" # end nonsegmental notation
+<Multi_key> <gt> <\> <Multi_key> : "ʡ" # epiglottal plosive
+<Multi_key> <^> <Multi_key> : "ꜛ" # upstep
+<Multi_key> <!> <Multi_key> : "ꜜ" # downstep
+<Multi_key> <!> <\> <Multi_key> : "ǃ" # postalveolar click
+<Multi_key> <|> <Multi_key> : "|" # minor (foot) group
+<Multi_key> <|> <\> <Multi_key> : "ǀ" # dental click
+<Multi_key> <|> <|> <Multi_key> : "‖" # major (intonation) group
+<Multi_key> <|> <\> <|> <\> <Multi_key> : "ǁ" # alveolar lateral click
+<Multi_key> <=> <Multi_key> : "ǂ" # palatal click
+<Multi_key> <-> <\> <Multi_key> : "‿" # linking mark
+
+# diacritics
+<Multi_key> <_> <"> <Multi_key> : "̈"  # centralized
+<Multi_key> <_> <+> <Multi_key> : "̟"  # advanced
+<Multi_key> <_> <-> <Multi_key> : "̠"  # retracted
+<Multi_key> <_> </> <Multi_key> : "̌"  # rising tone
+<Multi_key> <_> <0> <Multi_key> : "̥"  # voiceless
+<Multi_key> <_< > <Multi_key> : ""     # implosive (IPA uses separate symbols)
+<Multi_key> <=> <Multi_key> : "̩"      # syllabic
+<Multi_key> <_> <>> <Multi_key> : "ʼ"  # ejective
+<Multi_key> <_> <?> <\> <Multi_key> : "ˤ"  # pharyngealized
+<Multi_key> <_> <\> <Multi_key> : "̂"  # falling tone
+<Multi_key> <_> <^> <Multi_key> : "̯"  # non-syllabic
+<Multi_key> <_> <}> <Multi_key> : "̚"  # no audible release
+<Multi_key> <`> <Multi_key> : "˞"      # rhotacization in vowels, retroflexion in consonants
+<Multi_key> <~> <Multi_key> : "̃"      # nasalization
+<Multi_key> <_> <A> <Multi_key> : "̘"  # advanced tongue root
+<Multi_key> <_> <a> <Multi_key> : "̺"  # apical
+<Multi_key> <_> <B> <Multi_key> : "̏"  # extra low tone
+<Multi_key> <_> <B> <_> <L> <Multi_key> : "᷅"  # low rising tone
+<Multi_key> <_> <c> <Multi_key> : "̜"  # less rounded
+<Multi_key> <_> <d> <Multi_key> : "̪"  # dental
+<Multi_key> <_> <e> <Multi_key> : "̴"  # velarized or pharyngealized
+<Multi_key> <lt> <F> <Multi_key> : "↘"  # global fall
+<Multi_key> <_> <F> <Multi_key> : "̂"  # falling tone
+<Multi_key> <_> <G> <Multi_key> : "ˠ"  # velarized
+<Multi_key> <_> <H> <Multi_key> : "́"  # high tone
+<Multi_key> <_> <H> <_> <T> <Multi_key> : "᷄"  # high rising tone
+<Multi_key> <_> <h> <Multi_key> : "ʰ"  # aspirated
+<Multi_key> <_> <j> <Multi_key> : "ʲ"  # palatalized
+<Multi_key> <_> <k> <Multi_key> : "̰"  # creaky voice
+<Multi_key> <_> <L> <Multi_key> : "̀"  # low tone
+<Multi_key> <_> <l> <Multi_key> : "ˡ"  # lateral release
+<Multi_key> <_> <M> <Multi_key> : "̄"  # mid tone
+<Multi_key> <_> <m> <Multi_key> : "̻"  # laminal
+<Multi_key> <_> <N> <Multi_key> : "̼"  # linguolabial
+<Multi_key> <_> <n> <Multi_key> : "ⁿ"  # nasal release
+<Multi_key> <_> <O> <Multi_key> : "̹"  # more rounded
+<Multi_key> <_> <o> <Multi_key> : "̞"  # lowered
+<Multi_key> <_> <q> <Multi_key> : "̙"  # retracted tongue root
+<Multi_key> <lt> <R> <Multi_key> : "↗"  # global rise
+<Multi_key> <_> <R> <Multi_key> : "̌"  # rising tone
+<Multi_key> <_> <R> <_> <F> <Multi_key> : "᷈"  # rising falling tone
+<Multi_key> <_> <r> <Multi_key> : "̝"  # raised
+<Multi_key> <_> <T> <Multi_key> : "̋"  # extra high tone
+<Multi_key> <_> <t> <Multi_key> : "̤"  # breathy voice
+<Multi_key> <_> <v> <Multi_key> : "̬"  # voiced
+<Multi_key> <_> <w> <Multi_key> : "ʷ"  # labialized
+<Multi_key> <_> <X> <Multi_key> : "̆"  # extra-short
+<Multi_key> <_> <x> <Multi_key> : "̽"  # mid-centralized
+
+# unofficial ipa symbols
+<Multi_key> <I> <\> <Multi_key> : "ɨ" # near-close central unrounded vowel
+<Multi_key> <H> <\> <Multi_key> : "ʜ" # voiceless epiglottal fricative
+<Multi_key> <K> <\> <Multi_key> : "ɕ" # voiceless alveolo-palatal fricative
+
+# extra ipa that xsampa doesn't have
+<Multi_key> <v> <`> <Multi_key> : "ⱱ" # labiodental flap
+<Multi_key> <l> <`> <Multi_key> : "ꞎ" # voiceless retroflex lateral fricative
+<Multi_key> <C> <`> <Multi_key> : "𝼆" # voiceless palatal lateral fricative
+<Multi_key> <x> <`> <Multi_key> : "𝼄" # voiceless velar lateral fricative
